@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "954844472411",
+    "firebase_url": "https://firstapp-ea346.firebaseio.com",
+    "project_id": "firstapp-ea346",
+    "storage_bucket": "firstapp-ea346.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954844472411:android:941f347183dae0df",
+        "android_client_info": {
+          "package_name": "com.example.emili.cdf_rosny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954844472411-vilbfd78cflho0hdvvcj9q49b5rceni4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emili.cdf_rosny",
+            "certificate_hash": "0ce9cd084b14a3f52dd429eeb332461d3f0b8355"
+          }
+        },
+        {
+          "client_id": "954844472411-54mdr01rlkt6gl14h4rio17p6v5jmaqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMfvleJEX-j8NvS4_rfiAcN5eVMxhhaVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954844472411-54mdr01rlkt6gl14h4rio17p6v5jmaqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

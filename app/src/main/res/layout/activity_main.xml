@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.emili.cdf_rosny.MainActivity">
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="85dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Prenom"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="90dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="85dp"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="140dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="85dp"
+         />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="185dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="85dp"
+        />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="*******"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="230dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="85dp" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="*******"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="280dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="85dp" />
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inscription"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="325dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="135dp" />
+
+</android.support.constraint.ConstraintLayout>
